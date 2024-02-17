@@ -10,7 +10,7 @@
     align-items: center;
     gap:10px;
     color:aliceblue;
-    padding:10px;
+    padding:20px;
 }
 .header--logo {
     display:flex;
@@ -119,12 +119,12 @@ font-size: 14px;
 .header--cart i {
     font-size: 18px;
 }
-.header--logo:hover,
+.header--img--container:hover,
 .header--location:hover,
 .header-language:hover,
 .header--signed-in:hover,
 .header--orders:hover{
-outline: ipx solid white;
+outline: 2px solid white;
 border-radius: 3px;
 cursor: pointer;
 
